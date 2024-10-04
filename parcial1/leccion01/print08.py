@@ -9,6 +9,6 @@ for i in reversed(range(count_seconds + 1)):
         #print(i, end='>>>')
         #Despues comenta la linea anterior y descomenta la siguiente
         print(i, end='>>>', flush = True)
-        time.sleep(1)
+        time.sleep(3)
     else:
         print('Inicio')
