@@ -16,6 +16,5 @@ def generarPassword(n):
 
     pass
 
-
 for i in range(10, 20):
     print(generarPassword(i))
