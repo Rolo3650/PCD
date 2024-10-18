@@ -9,8 +9,17 @@ def verificar(cadena):
     # cadena son letras ASCII
     # Devuelve: True en caso de que todos los caracteres sean letras ascii
     #           False en caso contrario
-    pass
+    
+    for i in cadena: 
+        valid = False
+        for j in caracteres_ascii:
+            if j == i: 
+                valid = True
+                break
+        if valid == False: 
+            return False
+    return True
 
 
-cadena1 = "Esto es un a cadena$"
+cadena1 = "Esto"
 print(verificar(cadena1))
